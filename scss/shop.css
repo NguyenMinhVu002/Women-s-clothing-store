@@ -1,0 +1,54 @@
+/*---------------------
+  Commom
+-----------------------*/
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+/*---------------------
+  Product Shop
+-----------------------*/
+.nav-view .mdi {
+  display: inline-block;
+  font-size: 20x;
+  margin-left: 10px;
+}
+
+.nav-view ul {
+  list-style-type: none;
+}
+
+.product-item .pi-pic {
+  width: 50%;
+}
+
+/*---------------------
+  Shop list
+-----------------------*/
+.productlist .list-text .mdi {
+  font-size: 15px;
+}
+
+.productlist .list-text .list-btn a {
+  color: black;
+  border: 1px solid gray;
+  background-color: grey;
+  height: 35px;
+  padding: 5px 20px;
+  line-height: 35px;
+}
+
+.productlist .list-img {
+  position: relative;
+}
+
+.productlist .list-img .sell {
+  background-color: #7fc8aa;
+  position: absolute;
+  color: white;
+  padding: 0 10px;
+  top: 10px;
+  left: 10px;
+}
+/*# sourceMappingURL=shop.css.map */

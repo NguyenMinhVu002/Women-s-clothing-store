@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Fashi Template">
+    <meta name="keywords" content="Fashi, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Women's clothing store</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/themify-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <!-- update code -->
+    <!-- update code 1 -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="header-top">
+            <div class="container">
+                <div class="ht-left">
+                    <div class="mail-service">
+                        <i class=" fa fa-envelope"></i>
+                        nguyenminhvu@gmail.com
+                    </div>
+                    <div class="phone-service">
+                        <i class=" fa fa-phone"></i>
+                        0358983752
+                    </div>
+                </div>
+                <div class="ht-right">
+                    <a href="#" class="login-panel"><i class="fa fa-user"></i>Đăng Ký</a>
+                    <a href="#" class="login-panel"><i class="fa fa-user"></i>Đăng nhập</a>           
+                    <div class="lan-selector">
+                        <select class="language_drop" name="countries" id="countries" style="width:300px;">
+                            <option value='yt' data-image="img/flag-1.jpg" data-imagecss="flag yt"
+                                data-title="English">English</option>
+                            <option value='yu' data-image="img/flag-2.jpg" data-imagecss="flag yu"
+                                data-title="Bangladesh">German </option>
+                        </select>
+                    </div>
+                    <div class="top-social">
+                        <a href="#"><i class="ti-facebook"></i></a>
+                        <a href="#"><i class="ti-twitter-alt"></i></a>
+                        <a href="#"><i class="ti-linkedin"></i></a>
+                        <a href="#"><i class="ti-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- container -->
+        <div class="container">
+            <div class="inner-header">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <img src="img/logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-7">
+                        <div class="advanced-search">
+                            <button type="button" class="category-btn">Danh mục</button>
+                            <form action="#" class="input-group">
+                                <input type="text" placeholder="Tìm sản phẩm bạn muốn?">
+                                <button type="button"><i class="ti-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-right col-md-3">
+                        <ul class="nav-right">
+                            <li><a href="#" data-toggle="modal" data-target="#quick-view" class="fa fa-user">Tài khoản</a></li>
+
+                            <li class="cart-icon"><a href="#">
+                                    <i class="icon_bag_alt"></i>
+                                    <span>2</span>
+                                </a>
+                                <div class="cart-hover">
+                                    <div class="select-items">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="si-pic"><img src="img/select-product-1.jpg" alt=""></td>
+                                                    <td class="si-text">
+                                                        <div class="product-selected">
+                                                            <p>2.500.000 VND</p>
+                                                            <h6>Áo Len Hàn Quốc</h6>
+                                                        </div>
+                                                    </td>
+                                                    <td class="si-close">
+                                                        <i class="ti-close"></i>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="si-pic"><img src="img/select-product-2.jpg" alt=""></td>
+                                                    <td class="si-text">
+                                                        <div class="product-selected">
+                                                            <p>3.000.000 VND</p>
+                                                            <h6>Áo Len Nhật Bản</h6>
+                                                        </div>
+                                                    </td>
+                                                    <td class="si-close">
+                                                        <i class="ti-close"></i>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="select-total">
+                                        <span>total:</span>
+                                        <h5>3.500.000 VND</h5>
+                                    </div>
+                                    <div class="select-button">                               
+                                        <a href="#" class="primary-btn view-card">Xem giỏ hàng</a>
+                                        <a href="#" class="primary-btn checkout-btn">Kiểm tra</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cart-price">3.500.000 VND</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-details quick-view modal animated zoomInUp" id="quick-view">
+            <div class="container">
+                <div class="row">
+                    <a class="UserModalstyle__CloseButton-tngk37-10 fIfNjl">
+                        <span class="tikicon icon-circle-close"></span></a>
+
+                </div>
+            </div>
+        </div>
+        
+        <!-- nav-item -->
+        <div class="nav-item">
+            <div class="container">
+                <div class="nav-depart">
+                    <div class="depart-btn">
+                        <i class="ti-menu"></i>
+                        <span>Danh mục</span>
+                        <ul class="depart-hover">
+                            <li class="active"><a href="#">Áo nữ</a></li>
+                            <li><a href="#">Quần nữ</a></li>
+                            <li><a href="#">Váy nữ</a></li>
+                            <li><a href="#">Giày nữ</a></li>
+                            <li><a href="#">Phụ kiện nữ</a></li>     
+                            <li><a href="#">Áo khoác nữ</a></li>                     
+                        </ul>
+                    </div>
+                </div>
+                <nav class="nav-menu mobile-menu">
+                    <ul>
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Mua hàng</a></li>
+                        <li><a href="#">Thanh toán</a>
+                            
+                        </li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Liên hệ</a></li>                     
+                    </ul>
+                </nav>
+                <div id="mobile-menu-wrap"></div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero-section">
+        <div class="hero-items owl-carousel">
+            <div class="single-hero-items set-bg" data-setbg="img/hero-1.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <span>Giảm Giá 50%</span>
+                            <h1>Black friday</h1>
+                            <p>Chào đón Black Friday với ưu đãi đặc biệt: Giảm giá lên đến 50% cho những sản phẩm hot nhất. Hãy nhanh chân đặt mua để không bỏ lỡ cơ hội trải nghiệm mua sắm thú vị và tiết kiệm tại cửa hàng chúng tôi!</p>
+                            <a href="#" class="primary-btn">MUA NGAY</a>
+                        </div>
+                    </div>
+                    <div class="off-card">
+                        <h2>Sale <span>50%</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="single-hero-items set-bg" data-setbg="img/hero-2.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <span>Giảm Giá 50%</span>
+                            <h1>Black friday</h1>
+                            <p>Chào đón Black Friday với ưu đãi đặc biệt: Giảm giá lên đến 50% cho những sản phẩm hot nhất. Hãy nhanh chân đặt mua để không bỏ lỡ cơ hội trải nghiệm mua sắm thú vị và tiết kiệm tại cửa hàng chúng tôi!</p>
+                            <a href="#" class="primary-btn">MUA NGAY</a>
+                        </div>
+                    </div>
+                    <div class="off-card">
+                        <h2>Sale <span>50%</span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    
+
+    <!-- Women Banner Section Begin -->
+    <section class="women-banner spad">
+        <div class="container-fluid">
+            <div class="row bg-white">          
+                <div class="offset-1 col-lg-10 offset-lg-1">
+                    <div class="deal text-left ">
+                       
+                            <div class="section-title text-left">
+                                <h2>Deal khủng</h2>
+                            </div>
+                        </div>
+                       
+                        <div class="countdown-timer" id="countdown">
+                             
+                            <div class="cd-item">
+                                <span>56</span>
+                                <p>Ngày</p>
+                            </div>
+                            <div class="cd-item">
+                                <span>12</span>
+                                <p>Giờ</p>
+                            </div>
+                            <div class="cd-item">
+                                <span>40</span>
+                                <p>Phút</p>
+                            </div>
+                            <div class="cd-item">
+                                <span>52</span>
+                                <p>Giây</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-slider owl-carousel">
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/products/women-1.jpg" alt="">
+                                <div class="sale">Sale</div>
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <div class="catagory-name">SALE 50%</div>
+                                <a href="#">
+                                    <h5>Áo len Hàn Quốc</h5>
+                                </a>
+                                <div class="product-price">
+                                    2.500.000 VND
+                                    <span>5.000.000 VND</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/products/women-2.jpg" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <div class="catagory-name">Hot Trend</div>
+                                <a href="#">
+                                    <h5>Áo len Nhật Bản</h5>
+                                </a>
+                                <div class="product-price">
+                                    3.000.000 VND
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/products/women-3.jpg" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <div class="catagory-name">Hot Trend</div>
+                                <a href="#">
+                                    <h5>Áo len Việt Nam</h5>
+                                </a>
+                                <div class="product-price">
+                                    4.500.000 VND
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/products/women-4.jpg" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <div class="catagory-name">HOT TREND</div>
+                                <a href="#">
+                                    <h5>Túi Xách nhỏ đeo vai</h5>
+                                </a>
+                                <div class="product-price">
+                                    1.000.000 VND
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/products/women-4.jpg" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <div class="catagory-name">HOT TREND</div>
+                                <a href="#">
+                                    <h5>Túi Xách nhỏ đeo vai</h5>
+                                </a>
+                                <div class="product-price">
+                                    1.000.000 VND
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/products/women-4.jpg" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <div class="catagory-name">HOT TREND</div>
+                                <a href="#">
+                                    <h5>Túi Xách nhỏ đeo vai</h5>
+                                </a>
+                                <div class="product-price">
+                                    1.000.000 VND
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Women Banner Section End -->
+
+     <!-- tìm kiếm phổ biến -->
+    <section class="single-products  products-two section-padding extra-padding-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="section-title text-center">
+                        <h2>Tìm kiếm phổ biến</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <ul style="list-style-type: none;">
+                    <li>
+                        <div class="row text-center">             
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img src="img/products/women-2.jpg" alt="">
+                                    <div class="icon">
+                                        <i class="icon_heart_alt"></i>
+                                    </div>
+                                    <ul>
+                                        <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                        <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name">Hot Trend</div>
+                                    <a href="#">
+                                        <h5>Áo len Nhật Bản</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        3.000.000 VND
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img src="img/products/women-2.jpg" alt="">
+                                    <div class="icon">
+                                        <i class="icon_heart_alt"></i>
+                                    </div>
+                                    <ul>
+                                        <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                        <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name">Hot Trend</div>
+                                    <a href="#">
+                                        <h5>Áo len Việt Nam</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        4.500.000 VND
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img src="img/products/women-2.jpg" alt="">
+                                    <div class="icon">
+                                        <i class="icon_heart_alt"></i>
+                                    </div>
+                                    <ul>
+                                        <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                        <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name">Hot Trend</div>
+                                    <a href="#">
+                                        <h5>Áo len Việt Nam</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        4.500.000 VND
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img src="img/products/women-2.jpg" alt="">
+                                    <div class="icon">
+                                        <i class="icon_heart_alt"></i>
+                                    </div>
+                                    <ul>
+                                        <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                        <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name">Hot Trend</div>
+                                    <a href="#">
+                                        <h5>Áo len Việt Nam</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        4.500.000 VND
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                  
+                    </li>
+                    <li>
+                        <div class="row text-center">             
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img src="img/products/women-2.jpg" alt="">
+                                    <div class="icon">
+                                        <i class="icon_heart_alt"></i>
+                                    </div>
+                                    <ul>
+                                        <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                        <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name">Hot Trend</div>
+                                    <a href="#">
+                                        <h5>Áo len Việt Nam</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        4.500.000 VND
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img src="img/products/women-2.jpg" alt="">
+                                    <div class="icon">
+                                        <i class="icon_heart_alt"></i>
+                                    </div>
+                                    <ul>
+                                        <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                        <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name">Hot Trend</div>
+                                    <a href="#">
+                                        <h5>Áo len Việt Nam</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        4.500.000 VND
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img src="img/products/women-2.jpg" alt="">
+                                    <div class="icon">
+                                        <i class="icon_heart_alt"></i>
+                                    </div>
+                                    <ul>
+                                        <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                        <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name">Hot Trend</div>
+                                    <a href="#">
+                                        <h5>Áo len Việt Nam</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        4.500.000 VND
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img src="img/products/women-2.jpg" alt="">
+                                    <div class="icon">
+                                        <i class="icon_heart_alt"></i>
+                                    </div>
+                                    <ul>
+                                        <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                        <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name">Hot Trend</div>
+                                    <a href="#">
+                                        <h5>Áo len Việt Nam</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        4.500.000 VND
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </section>
+    <!-- tìm kiếm phổ biến -->
+
+    <!--start dành riêng cho bạn -->
+    <section class="single-products  products-two section-padding extra-padding-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="section-title text-center">
+                        <h2>Dành riêng cho bạn</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <ul class="load-list load-list-two">
+                    <li>
+                        <div class="row text-center">             
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img src="img/products/women-2.jpg" alt="">
+                                    <div class="icon">
+                                        <i class="icon_heart_alt"></i>
+                                    </div>
+                                    <ul>
+                                        <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                        <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name">Hot Trend</div>
+                                    <a href="#">
+                                        <h5>Áo len Việt Nam</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        4.500.000 VND
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img src="img/products/women-2.jpg" alt="">
+                                    <div class="icon">
+                                        <i class="icon_heart_alt"></i>
+                                    </div>
+                                    <ul>
+                                        <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                        <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name">Hot Trend</div>
+                                    <a href="#">
+                                        <h5>Áo len Việt Nam</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        4.500.000 VND
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img src="img/products/women-2.jpg" alt="">
+                                    <div class="icon">
+                                        <i class="icon_heart_alt"></i>
+                                    </div>
+                                    <ul>
+                                        <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                        <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name">Hot Trend</div>
+                                    <a href="#">
+                                        <h5>Áo len Việt Nam</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        4.500.000 VND
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img src="img/products/women-2.jpg" alt="">
+                                    <div class="icon">
+                                        <i class="icon_heart_alt"></i>
+                                    </div>
+                                    <ul>
+                                        <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                        <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name">Hot Trend</div>
+                                    <a href="#">
+                                        <h5>Áo len Việt Nam</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        4.500.000 VND
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row text-center">             
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img src="img/products/women-2.jpg" alt="">
+                                    <div class="icon">
+                                        <i class="icon_heart_alt"></i>
+                                    </div>
+                                    <ul>
+                                        <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                        <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name">Hot Trend</div>
+                                    <a href="#">
+                                        <h5>Áo len Việt Nam</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        4.500.000 VND
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img src="img/products/women-2.jpg" alt="">
+                                    <div class="icon">
+                                        <i class="icon_heart_alt"></i>
+                                    </div>
+                                    <ul>
+                                        <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                        <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name">Hot Trend</div>
+                                    <a href="#">
+                                        <h5>Áo len Việt Nam</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        4.500.000 VND
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img src="img/products/women-2.jpg" alt="">
+                                    <div class="icon">
+                                        <i class="icon_heart_alt"></i>
+                                    </div>
+                                    <ul>
+                                        <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                        <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name">Hot Trend</div>
+                                    <a href="#">
+                                        <h5>Áo len Việt Nam</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        4.500.000 VND
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img src="img/products/women-2.jpg" alt="">
+                                    <div class="icon">
+                                        <i class="icon_heart_alt"></i>
+                                    </div>
+                                    <ul>
+                                        <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                        <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name">Hot Trend</div>
+                                    <a href="#">
+                                        <h5>Áo len Việt Nam</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        4.500.000 VND
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row text-center">             
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img src="img/products/women-2.jpg" alt="">
+                                    <div class="icon">
+                                        <i class="icon_heart_alt"></i>
+                                    </div>
+                                    <ul>
+                                        <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                        <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name">Hot Trend</div>
+                                    <a href="#">
+                                        <h5>Áo len Việt Nam</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        4.500.000 VND
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img src="img/products/women-2.jpg" alt="">
+                                    <div class="icon">
+                                        <i class="icon_heart_alt"></i>
+                                    </div>
+                                    <ul>
+                                        <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                        <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name">Hot Trend</div>
+                                    <a href="#">
+                                        <h5>Áo len Việt Nam</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        4.500.000 VND
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img src="img/products/women-2.jpg" alt="">
+                                    <div class="icon">
+                                        <i class="icon_heart_alt"></i>
+                                    </div>
+                                    <ul>
+                                        <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                        <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name">Hot Trend</div>
+                                    <a href="#">
+                                        <h5>Áo len Việt Nam</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        4.500.000 VND
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img src="img/products/women-2.jpg" alt="">
+                                    <div class="icon">
+                                        <i class="icon_heart_alt"></i>
+                                    </div>
+                                    <ul>
+                                        <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                        <li class="quick-view"><a href="#">+ Xem nhanh</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name">Hot Trend</div>
+                                    <a href="#">
+                                        <h5>Áo len Việt Nam</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        4.500.000 VND
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button id="load-more-two">XEM THÊM</button>
+            </div>
+        </div>
+    </section>
+    <!--End dành riêng cho bạn -->
+
+    <!-- Latest Blog Section Begin -->
+    <section class="latest-blog spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>BLOG</h2>
+                        <h5>Những bài viết mới về thời trang bạn có thể xem bây giờ</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-latest-blog">
+                        <img src="img/latest-1.jpg" alt="">
+                        <div class="latest-text">
+                            <div class="tag-list">
+                                <div class="tag-item">
+                                    <i class="fa fa-calendar-o"></i>
+                                    May 28, 2022
+                                </div>
+                                <div class="tag-item">
+                                    <i class="fa fa-comment-o"></i>
+                                    5
+                                </div>
+                            </div>
+                            <a href="#">
+                                <h4>Trong trẻo đầu hạ cùng các thiết kế của Toson</h4>
+                            </a>
+                            <p>Bất kỳ là khoảng thời gian nào, sự thay đổi của thiên nhiên luôn trở thành nguồn cảm hứng không ngừng cho rất nhiều lĩnh vực đặc biệt đối với thời trang. Cảm hứng được cho là chủ đạo trong Hè 2022 đó chính là sự trở lại mạnh mẽ, tràn đầy năng lượng, sẵn sàng để bứt phá. Đó cũng chính là thông điệp mà Toson muốn gửi gắm trong BST mới. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-latest-blog">
+                        <img src="img/latest-2.jpg" alt="">
+                        <div class="latest-text">
+                            <div class="tag-list">
+                                <div class="tag-item">
+                                    <i class="fa fa-calendar-o"></i>
+                                    May 28, 2022
+                                </div>
+                                <div class="tag-item">
+                                    <i class="fa fa-comment-o"></i>
+                                    5
+                                </div>
+                            </div>
+                            <a href="#">
+                                <h4>BST “Tiệc Đêm ” - Buổi tiệc lung linh dành riêng cho nàng</h4>
+                            </a>
+                            <p>Thời điểm cuối năm dần dần trôi qua, một mùa lễ hội - Mùa của những buổi tiệc Year-End-Party đang đến gần hơn. Hãy cùng Toson hòa mình vào sắc màu lung linh của những buổi tiệc này ngay thôi nào!  </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-latest-blog">
+                        <img src="img/latest-3.jpg" alt="">
+                        <div class="latest-text">
+                            <div class="tag-list">
+                                <div class="tag-item">
+                                    <i class="fa fa-calendar-o"></i>
+                                    May 28, 2022
+                                </div>
+                                <div class="tag-item">
+                                    <i class="fa fa-comment-o"></i>
+                                    5
+                                </div>
+                            </div>
+                            <a href="#">
+                                <h4>Những bộ công sở nhất định phải có trong 2022</h4>
+                            </a>
+                            <p>Set bộ công sở Toson - items không thể thiếu dành cho các cô nàng trendy.Thời tiết này mà mặc set bộ công sở là quá chuẩn rồi các nàng ơi, vừa chỉn chu, ấm áp lại cực kỳ thời trang sành điệu.Cùng điểm danh một số thiết kế cực chất Toson dành tặng các nàng vào mùa Thu Đông 2021 này nhé. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="benefit-items">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="single-benefit">
+                            <div class="sb-icon">
+                                <img src="img/icon-1.png" alt="">
+                            </div>
+                            <div class="sb-text">
+                                <h6>Miễn phí ship</h6>
+                                <p>Cho tất cả hóa đơn trên 2.000.000 VNĐ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-benefit">
+                            <div class="sb-icon">
+                                <img src="img/icon-2.png" alt="">
+                            </div>
+                            <div class="sb-text">
+                                <h6>Vận chuyển mọi thời gian</h6>
+                                <p>Nếu không có vấn đề</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-benefit">
+                            <div class="sb-icon">
+                                <img src="img/icon-1.png" alt="">
+                            </div>
+                            <div class="sb-text">
+                                <h6>Thanh toán bảo mật</h6>
+                                <p>100% bảo mật</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Latest Blog Section End -->
+
+    <!-- Partner Logo Section Begin -->
+    <div class="partner-logo">
+        <div class="container">
+            <div class="logo-carousel owl-carousel">
+                <div class="logo-item">
+                    <div class="tablecell-inner">
+                        <img src="img/logo-carousel/logo-1.png" alt="">
+                    </div>
+                </div>
+                <div class="logo-item">
+                    <div class="tablecell-inner">
+                        <img src="img/logo-carousel/logo-2.png" alt="">
+                    </div>
+                </div>
+                <div class="logo-item">
+                    <div class="tablecell-inner">
+                        <img src="img/logo-carousel/logo-3.png" alt="">
+                    </div>
+                </div>
+                <div class="logo-item">
+                    <div class="tablecell-inner">
+                        <img src="img/logo-carousel/logo-4.png" alt="">
+                    </div>
+                </div>
+                <div class="logo-item">
+                    <div class="tablecell-inner">
+                        <img src="img/logo-carousel/logo-5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Partner Logo Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer-left">
+                        <ul>
+                            <li>Địa chỉ : 54 P. Triều Khúc, Thanh Xuân Nam, Thanh Xuân, Hà Nội</li>
+                            <li>Phone: 0358984752</li>
+                            <li>Email: nguyenminhvu@gmail.com</li>
+                        </ul>
+                        <div class="footer-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-1">
+                    <div class="footer-widget">
+                        <h5>Thông tin</h5>
+                        <ul>
+                            <li><a href="#">Chăm sóc khách hàng</a></li>
+                            <li><a href="#">Thanh toán</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="#">Trợ giúp</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-widget">
+                        <h5>Tài khoản của tôi</h5>
+                        <ul>
+                            <li><a href="#">Tài khoản của tôi</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="#">Giỏ hàng</a></li>
+                            <li><a href="#">Mua sắm</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="newslatter-item">
+                        <h5>Đăng ký nhận bản tin của chúng tôi</h5>
+                        <p>Đừng bỏ lỡ những bản tin hấp dẫn</p>
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="Địa chỉ email của bạn">
+                            <button type="button">Đăng ký</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="copyright-reserved">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="copyright-text">
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> Nguyễn Minh Vũ  <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </div>
+                            <div class="payment-pic">
+                                <img src="img/payment-method.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.zoom.min.js"></script>
+    <script src="js/jquery.dd.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/load-more.js"></script>
+    
+</body>
+
+</html>
